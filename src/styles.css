@@ -1,1 +1,167 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: 100%;
+    font-family: 'Droid Sans';
+    font-size: 16px;
+    color: #000;
+}
+
+.nav-item {
+    margin-left: 50px;
+    padding: 14.75px 0;
+    position: relative;
+    float: left;
+    display: block;
+    font-size: 18px;    
+}
+
+.nav-item>a {
+    outline: 0;
+    border-radius: 0;
+    border-bottom: 3px solid transparent;
+    background: 0 0;
+    border-top: 0 solid transparent;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+
+    color: #000;
+    font-weight: 400;
+    text-transform: normal;
+    font-size: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 14.75px 20px;
+    line-height: 18px;
+}
+
+ul {
+    overflow: visible;
+    position: relative;
+    height: 80px;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .hotel-info {
+        position: relative;
+        top: -100px;background-color: rgba(0,0,0,.54);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 70px 80px 70px;
+        margin: 0 -10px;color: white
+    }
+
+    .img-carousel {
+        height:90vh;
+        width:100%;
+        overflow: auto
+    }  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .img-carousel {
+        height:80vh;
+        width:100%; 
+    }
+    .hotel-info {
+        /*background-color: red;*/
+        top: -10px!important; 
+        background-color: rgba(0,0,0,.54);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 70px 80px 70px;
+        margin: 0 -10px;color: white
+    } 
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .hotel-info {
+        position: relative;
+        top: -100px;background-color: rgba(0,0,0,.54);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 70px 80px 70px;
+        margin: 0 -10px;color: white
+    }
+
+    .img-carousel {
+        height:90vh;
+        width:100%;
+        overflow: auto
+    }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hotel-info {
+        position: relative;
+        top: -100px;background-color: rgba(0,0,0,.54);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 70px 80px 70px;
+        margin: 0 -10px;color: white
+    }
+
+    .img-carousel {
+        height:90vh;
+        width:100%;
+        overflow: auto
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .hotel-info {
+        position: relative;
+        top: -100px;background-color: rgba(0,0,0,.54);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 70px 80px 70px;
+        margin: 0 -10px;color: white
+    }
+
+    .img-carousel {
+        height:90vh;
+        width:100%;
+        overflow: auto
+    }
+}
+
+
+
+/*@media (min-width: 768px)
+{
+   .navbar-nav>li {
+    float: left;
+}
+
+}*/
+
