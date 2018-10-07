@@ -12,4 +12,20 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  images = [
+      {
+        imagePath: '../assets/images/room_1.jpg',
+        imageAlt: 'Rooms',
+        active: "active"
+      },
+      {
+        imagePath: '../assets/images/restaurant.jpg',
+        imageAlt: 'Restutant'
+      },
+      {
+        imagePath: '../assets/images/lobby.jpg',
+        imageAlt: 'Lobby'
+      }
+  ];
+
 }
