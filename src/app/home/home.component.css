@@ -1,0 +1,12 @@
+div.info-gray-bg {
+    background-color: #00000080;
+}
+
+.hotel-info {
+    position: relative;
+    top: -100px;background-color: rgba(0,0,0,.54);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 20px 70px 80px 70px;
+    margin: 0 -10px;color: white
+}
