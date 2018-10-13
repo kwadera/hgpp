@@ -8,6 +8,7 @@ import { RoomsComponent } from './rooms/rooms.component';
 import { RestorauntComponent } from './restoraunt/restoraunt.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: '', 
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     RoomsComponent,
     RestorauntComponent,
     GalleryComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     RouterModule.forRoot(

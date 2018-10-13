@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom justify-content-between">
+  <a class="navbar-brand" href="#">
+    <img src="../assets/images/hotel-logo.jpg" width="30" height="30" class="d-inline-block align-center" alt="">
+    HGPP
+  </a>
+
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/rooms" routerLinkActive="active">Rooms <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/resturant" routerLinkActive="active">Restaurant</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/gallery" routerLinkActive="active">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Booking</a>
+      </li>
+    </ul>
+  </div>
+</nav>

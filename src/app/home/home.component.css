@@ -9,7 +9,7 @@
         left: 0;
         width:100%;
         height:100px;
-        padding: 20px 70px 80px 70px;
+        /* padding: 20px 70px 80px 70px; */
         background-color: rgba(0,0,0,.54);
         color: white
     }
@@ -22,37 +22,7 @@
     }
 
     .img-carousel {
-        height:90vh;
-        width:100%;
-        overflow: auto
-    }
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-@media (min-width: 320px) and (max-width: 480px) {
-    #hotel-info {
-        position:fixed;
-        bottom: 0;
-        left: 0;
-        width:100%;
-        height:100px;
-        padding: 20px 70px 80px 70px;
-        background-color: rgba(0,0,0,.54);
-        color: white
-    }
-    
-    #imagesCarousel {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-    }
-
-    .img-carousel {
-        height:90vh;
+        height:93vh;
         width:100%;
         overflow: auto
     }
@@ -69,7 +39,7 @@
         left: 0;
         width:100%;
         height:100px;
-        padding: 20px 70px 80px 70px;
+        /* padding: 20px 70px 80px 70px; */
         background-color: rgba(0,0,0,.54);
         color: white
     }
@@ -82,7 +52,7 @@
     }     
 
     .img-carousel {
-        height:90vh;
+        height:93vh;
         width:100%;
         overflow: auto
     }
@@ -98,8 +68,8 @@
         bottom: 0;
         left: 0;
         width:100%;
-        height:100px;
-        padding: 20px 70px 80px 70px;
+        height:150px;
+        /* padding: 20px 70px 80px 70px; */
         background-color: rgba(0,0,0,.54);
         color: white
     }
@@ -112,12 +82,11 @@
     }     
 
     .img-carousel {
-        height:90vh;
+        height:93vh;
         width:100%;
         overflow: auto
     }
 }
-
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -129,10 +98,11 @@
         bottom: 0;
         left: 0;
         width:100%;
-        height:100px;
-        padding: 20px 70px 80px 70px;
+        height:150px;
+        /* padding: 20px 70px 80px 70px; */
         background-color: rgba(0,0,0,.54);
-        color: white
+        color: white;
+        text-align: center;
     }
     
     #imagesCarousel {
@@ -143,7 +113,38 @@
     }     
 
     .img-carousel {
-        height:90vh;
+        height:93vh;
+        width:100%;
+        overflow: auto
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #hotel-info {
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        height:150px;
+        /* padding: 20px 70px 80px 70px; */
+        background-color: rgba(0,0,0,.54);
+        color: white;
+        text-align: center;
+    }
+    
+    #imagesCarousel {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-carousel {
+        height:93vh;
         width:100%;
         overflow: auto
     }
