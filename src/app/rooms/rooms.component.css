@@ -1,0 +1,14 @@
+
+.roomContainer {
+    background-color: #48A0A8;
+    margin-top: 20px
+}
+
+.roomContainer h3,
+.roomContainer p {
+    color: whitesmoke;
+}
+
+.roomContainer h3 {
+    padding-top: 25px;
+}
