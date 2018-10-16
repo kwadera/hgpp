@@ -16,6 +16,7 @@ export class RoomsComponent implements OnInit {
     {
         name: "Class A Room",
         description: "Tucked away amidst tropical foliage, and located on the ground floor of a 2 unit casita, these recently refreshed Garden View rooms are close to our lobby, restaurants and pools and are a short stroll to our palm-lined beach. Enjoy free WI-Fi while you relax and unwind in a Mayan inspired hammock.",
+        displayImagePath: '../assets/images/restaurant.jpg',
         images: [
           {
             imagePath: '../assets/images/room_1.jpg',
@@ -34,8 +35,9 @@ export class RoomsComponent implements OnInit {
 
     },
     {
-      name: "Class A Room",
+      name: "Class B Room",
       description: "Tucked away amidst tropical foliage, and located on the ground floor of a 2 unit casita, these recently refreshed Garden View rooms are close to our lobby, restaurants and pools and are a short stroll to our palm-lined beach. Enjoy free WI-Fi while you relax and unwind in a Mayan inspired hammock.",
+      displayImagePath: '../assets/images/room_1.jpg',
       images: [
         {
           imagePath: '../assets/images/room_1.jpg',

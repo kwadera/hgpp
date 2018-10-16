@@ -1,7 +1,7 @@
 
 .roomContainer {
-    background-color: #48A0A8;
-    margin-top: 20px
+    background-color: black;
+    margin-top: 20px;
 }
 
 .roomContainer h3,
@@ -11,4 +11,77 @@
 
 .roomContainer h3 {
     padding-top: 25px;
+}
+
+.room-info {
+    background-color: #48A0A8;
+}
+
+.roomContainer {
+    background-color: white;
+}
+
+.room-img {
+    text-align: center;
+}
+
+.room-img img {
+    width:100%;
+    height: 100%;
+    margin-left: -35px;
+}
+
+.frame {
+    /* border: 1px solid red; */
+    background-image:  linear-gradient(to right, #48A0A8, #48A0A8AA);  
+    white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+    text-align: center;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    /* width: 10px; */
+    vertical-align: middle;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .frame {
+        background-image:  linear-gradient( #48A0A8, #48A0A8AA);  
+        white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+        text-align: center;
+        min-width: 100%;
+    }
+
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .frame {
+        background-image:  linear-gradient( #48A0A8, #48A0A8AA);  
+        white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+        text-align: center;
+        min-width: 100%;
+    }
+
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }    
 }

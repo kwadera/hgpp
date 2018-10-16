@@ -5,16 +5,17 @@
         <div class="roomContainer col-md-8"  *ngFor="let roomItem of rooms">
 
           <div class="row mh-100">
-              <div class="col-md-3 mh-100" style="background-color: rgb(200, 160, 160);">
+              <div class="col-md-3 mh-100 room-info">
                   <h3> {{roomItem.name}} </h3>
                   <p> {{roomItem.description}}</p>
               </div>
-
-              <div  class="col-md-9 h-100"  style="background-color: rgb(160, 180, 200);">
-                  <p> {{roomItem.description}}</p>
-                  <p> {{roomItem.description}}</p>
-                  <p> {{roomItem.description}}</p>
-                  
+              <div class="mh-100 frame">
+                    <span class="helper"></span>
+                <img src="../assets/images/chevron_right.svg">
+              </div>
+              <div  class="col-md-8 mh-100 room-img">
+                    <span class="helper"></span>
+                    <img src="{{roomItem.displayImagePath}}">                  
               </div>
           </div>
         </div>
