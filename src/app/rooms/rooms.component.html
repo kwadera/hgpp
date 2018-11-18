@@ -11,9 +11,10 @@
               </div>
               <div class="mh-100 frame">
                     <span class="helper"></span>
-                <img src="../assets/images/chevron_right.svg" *showItBootstrap="['sm', 'md', 'lg','xl']">
-                <img src="../assets/images/expand_more.svg" *showItBootstrap="['xs']">
-              </div>
+                    <input type="image" [src]="roomItem.toggleCheveronState ? chevron_left_src : chevron_right_src" *showItBootstrap="['sm', 'md', 'lg','xl']" (click)="toggleCheveron($event.target, roomItem);" >
+                    <input type="image" [src]="roomItem.toggleCheveronState ? expand_less_src : expand_more_src" *showItBootstrap="['xs']" (click)="toggleExpand($event.target, roomItem);" >
+               </div>
+
               <div  class="col-md-8 mh-100 room-img">
                     <span class="helper"></span>
                     <img src="{{roomItem.displayImagePath}}">                  
